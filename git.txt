@@ -1,14 +1,15 @@
-git����
-1������һ����ĿĿ¼
-2������ĿĿ¼�� ��git������  �Ҽ�--git bash 
-3������һ����Ŀ�ֿ�  ����ʼ����Ŀ�ֿ⣩
-���� �� git init  ����ʱ����ĿĿ¼�»����һ��.git �ļ�(�汾��)
-4������ĿĿ¼�� ���Ŀ�ṹ�ļ���Ϣ
-����Щ�ļ���Ϣ���ӵ� �ݴ���
-�������
-����һ���ļ� �� git add index.html
-���������ļ�: git add .  
+git操作
+1、创建一个项目目录
+2、在项目目录下 打开git服务器  右键--git bash 
+3、创建一个项目仓库  （初始化项目仓库）
+命令 ： git init  ，此时在项目目录下会出现一个.git 文件(版本库)
+4、在项目目录下 搭建项目结构文件信息
+将这些文件信息添加到 暂存区
+添加命令：
+添加一个文件 ： git add index.html
+批量添加文件: git add .  
 
-5���鿴ĳЩ�ļ��Ƿ񱻹�����git status
-6���ύ�ݴ����б��������ļ�����������
-git commit -m"��־"
+5、查看某些文件是否被管理：git status
+6、提交暂存区中被管理的文件到服务器上
+git commit -m"日志"
+你好
